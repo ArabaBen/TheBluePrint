@@ -2,6 +2,10 @@
 	font-family: myFirstFont;
 	src: url(BrownSugar.ttf); 
 }
+@font-face{
+	font-family: mySecFont;
+	src: url(AbhayaLibre-Regular.ttf);
+}
 
 body{
 	background-color: #EDECED;
@@ -9,31 +13,96 @@ body{
 	width: 100%;
 	overflow-x: hidden;
 }
-.intro img{
-	float:left;
-	width: 35%;
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+h1{
+	font-family: myFirstFont;
+	font-size: 80px;
 	
 }
-.parent {
-	position: absolute;
-	top: 0;
-	left: 0;
-  }
-  .img1 {
-	position: relative;
-	top: 0;
-	left: 0;
-  }
-  .img2 {
-	position: absolute;
-	left: 8px;
-	 margin-top: 35%;
-  }
-.intro h1{
-	float: right;
-	font-family: myFirstFont;
-	color: #000;
-	font-size: 80px;
-	width: 65%;
+p{
+	font-family: mySecFont;
+}
+
+.row1,.row2, .row3, .row4,.row5{
+	margin-top: 20px;
+	margin-bottom: 40px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.row1 img{
+	margin-top: 20px;
+	padding: 20px 20px;
+}
+.row2 img{
+	padding: 20px 20px;
+}
+.row3 img{
+	padding: 20px 20px;
+}.row4 img{
+	padding: 20px 20px;
+}.row5 img{
+	padding: 20px 20px;
+	margin-bottom: 5%;
+}
+
+.testimonals p {
 	
+}
+.row7{
+	width: 100%;
+	margin-top: 5%;
+	float: left;
+	margin-left: 230px;
+}
+.row8{
+	float: right;
+	width: 40%;
+	font-size: 25px;
+	top: 0;
+	text-align: center;
+}
+
+/*RESPONSIVE SIZES*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .body {
+	  width: 100%;
+	}
+	#intro{
+		width: 100%;
+	}
+	.introps p{
+		display: none;
+	}
+	
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .body {background: green;
+	   width: 100%;
+	}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .body {background: blue; width: 100%;}
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .body {background: orange; width: 100%;}
+	.need2know{ display: none;
+		
+	}
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .body {background: pink; width: 100%;}
+		.need2know{ display: none;
+
 }
