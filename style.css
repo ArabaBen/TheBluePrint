@@ -20,8 +20,19 @@ h1{
 	font-size: 80px;
 	
 }
-p{
+h2{
+		font-family: myFirstFont;
+
+}
+p, h4{
 	font-family: mySecFont;
+}
+
+.profile1, .profile2{
+	text-align: right;
+}
+.profile1 h2, .profile2 h2{
+	margin-top: 80px;
 }
 
 .row1,.row2, .row3, .row4,.row5{
@@ -47,21 +58,21 @@ p{
 	margin-bottom: 5%;
 }
 
-.testimonals p {
-	
-}
+
 .row7{
-	width: 100%;
+	width: 40%;
 	margin-top: 5%;
 	float: left;
-	margin-left: 230px;
+	margin-left: 20px;
 }
 .row8{
-	float: right;
+	float: left;
 	width: 40%;
-	font-size: 25px;
+	font-size: 20px;
 	top: 0;
-	text-align: center;
+	text-align: left;
+		margin-left: 20px;
+
 }
 
 /*RESPONSIVE SIZES*/
@@ -74,7 +85,7 @@ p{
 	#intro{
 		width: 100%;
 	}
-	.introps p{
+	.bigscr{
 		display: none;
 	}
 	
@@ -83,26 +94,29 @@ p{
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   .body {background: green;
-	   width: 100%;
+	   width: 100%;}
+	.need2know{ display: none;}
+	.row1 img,.row2 img, .row3 img, .row4 img,.row5{
+		width: 100%;
 	}
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   .body {background: blue; width: 100%;}
+	.need2know{
+		display: none;}
+	
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   .body {background: orange; width: 100%;}
-	.need2know{ display: none;
-		
-	}
+	.need2know{ display: none;}
 } 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
   .body {background: pink; width: 100%;}
-		.need2know{ display: none;
-
+		.need2know{ display: none;}
 }
