@@ -1,21 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>The Blueprint</title>
-    <link rel="stylesheet" href="./style.css">
-	 <link rel="stylesheet" href="BrownSugar.ttf">
-	 
-    <link rel="icon" href="./favicon.ico" type="image/x-icon">
-  </head>
-  <body>
-    <div class="intro">
-		<img class="img1" src="AA.jpg">
-		<img class="img2" src="AB.jpg">
-		<h1>The Blueprint</h1>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="style.css">
+
+	<link rel="stylesheet" href="BrownSugar.ttf">
+	 	 <link rel="stylesheet" href="AbhayaLibre-Regular.ttf">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+/*.
+	row {
+  display: -ms-flexbox; 
+  display: flex;
+  -ms-flex-wrap: wrap; 
+  flex-wrap: wrap;
+  padding: 10px 4px;
+}
+*/
+/* Create four equal columns that sits next to each other */
+/*.column {
+  -ms-flex: 25%; 
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+*/
+/* Responsive layout - makes a two column-layout instead of four columns 
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+*/
+</style>
+</head>
+<body>
+
+
+
+  
+  <!-- Photo grid (modal) -->
+  <div class="w3-row-padding" id="intro">
+    <div class="w3-half">
+      <img src="AA.jpg" onclick="onClick(this)" alt="Concrete meets bricks" style="width: 95%;">
+      <img src="AB.jpg" alt="Light, white and tight scandinavian design" style="width: 95%; margin-top: 15px;">
+    </div>
+
+    <div class="w3-half">
+		 <h1 style="font-family: myFirstFont;"> The <br> BluePrint</h1>
+		<p class="need2know">Founded in 2022 by Christian Tyler. Based in Los Angeles, CA.</p>
+		
+		<div class="introps">
+			<p style="margin-top: 100%; bottom: 0; float: left; width: 30%;">Founded in 2022 by Christian Tyler. Based in Los Angeles, CA.
+			</p>
+			<p style="margin-top: 100%; bottom: 0; text-decoration: underline; float: right; width:30%"><a href="">work with me</a></p>
+		</div>
+    </div>
+  </div>
+
+  
+
+  
+  <!-- ABOUT SECTION -->
+  <div class="w3-row-padding">
+	  <div class="w3-half" style="width: 50%;">
+		  <img src="Christian.jpeg" style="width: 95%;">
+	  </div>
+
+    <div class="w3-half">
+    <h1 style="font-family: myFirstFont;">About Us</h1>
+     <p>At The Blueprint, we transform spaces into art. Our talented team crafts unique designs that reflect our clients' personalities, lifestyles, and values. From interiors to furniture, lighting, architecture, and landscape design, we approach each project with meticulous attention and creative fervor. As a sustainable and ethical company, we prioritize human connection and nature. Our designs are both beautiful and environmentally conscious, leaving a positive social impact. We don't chase trends but create enduring, artistic spaces. With offices in LA, Denver, and NYC, we offer comprehensive services nationwide. We cater to discerning clients seeking personalized lifestyle design. Our mission is to create beautiful, distinctive designs that enrich lives and communities. At The Blueprint, we aim to be timeless, approachable, and promote well-being. Our brand embodies exceptional design, ethical practices, and outstanding service.”</p>
+		<br>
+		<p>contact: <a href="mailto:christian@theblueprint.design" target="_blank" class="w3-hover-opacity">christian@theblueprint.design </a>
+		</p>
+	  </div>
 	</div>
-	<script src="index.js"></script>
-  </body>
+	
+<!--project section-->
+  <div class="w3-row-padding">
+	  <div class="projects">
+		  
+		  <div class="row1"> 
+				<img class="m3" src="2.jpg" style="width:33%">
+				<img class="m3" src="4.jpg" style="width:30%; margin-top: 40px;">
+				<img class="m3" src="1.jpg" style="width:33%">
+		  </div>
+			  
+		 <div class="row2"> 
+			<img class="m3" src="6.jpg" style="width:35%">
+			<img class="m3" src="8.jpg" style="width:35%">
+			<img class="m6" src="7.jpg" style="width:60%">
+		  </div>
+		  
+		  <div class="row3">
+			<img class="m6" src="10.jpg" style="width:45%">
+			  <img class="m6" src="9.jpg" style="width:50%">
+		  </div>
+		  <div class="row4">
+			<img class="m3" src="12.jpg" style="width:30%; margin-top: 200px;">
+			<img class="m3" src="11.jpg" style="width:30%; margin-top: 180px;">
+			<img class="m3" src="13.jpg" style="width:30%; top: 0; ">
+		  </div>  
+		  <div class="row5">
+			<img src="15.jpg" style="width:25%; margin-top: 280px">
+			<img src="16.jpg" style="width:25%; margin-left: 60px;">
+			<img src="14.jpg" style="width:50%; margin-left: 10px; float: right">
+		  </div>
+		  
+	  </div>
+	</div>
+	  
+<!--	 testimonals -->
+	<div class="testimonals">
+	  <div class="w3-row-padding">
+
+
+		<div class="w3-half w3-margin-bottom" style="width: 50%; float: left;">
+		  <p style="padding-left: 220px; padding-right:  120px;">“I had the pleasure of working with Christian on my latest project, and I couldn't be happier with the results. The Blueprint's team of designers are incredibly talented, and their commitment to sustainability really stood out to me. The final product was not only beautiful but also functional and eco-friendly. I would definitely recommend The Blueprint to anyone looking for top-notch design services." <br>-Morgan VanderMaas</p>
+		</div>
+		<div class="w3-half w3-margin-bottom" style="width: 50%; float: right;"><p style="padding-left: 220px; padding-right:  120px;">“The Blueprint's designers are not only creative and skilled but also personable and attentive to their clients' needs. They truly take the time to understand their clients' visions and preferences, and then bring them to life in the most beautiful and unique ways." <br>-Elizabeth Montebello</p>
+		</div>
+		</div>
+		  
+		<div class="w3-row-padding">
+		<div class="w3-margin-bottom" style="width: 100%;">
+			<p style="text-align: left; padding-left: 450px; padding-right:  450px;">“I was thoroughly impressed by their professionalism and artistry. Christian brought a unique perspective to the project, and his commitment to sustainable and ethical practices was truly inspiring. He delivered a final product that exceeded my expectations and added immense value to my space." <br>-Smith Thomas”</p>
+		</div>
+
+	  </div>
+	</div>
+
+
+<!-- End page content -->
+
+<!-- W3.CSS Container -->
+<div class="w3-black w3-container w3-padding-32" style="margin-top:75px;padding-right:58px">
+	<div class="row6">
+		<div>
+		<h1 style="float: left; width: 60%">Get In Touch</h1>
+		<p style="float: right; width: 40%; text-align: center">The Blueprint</p>
+		</div>
+<!--		soc media icons-->
+		<div class="row8">
+		<div class="socmedia">
+<!--		<i class="fa fa-tiktok w3-hover-opacity"></i>-->
+		<i class="fa fa-instagram w3-hover-opacity"></i>
+		<i class="fa fa-pinterest-p w3-hover-opacity"></i>
+		<i class="fa fa-linkedin w3-hover-opacity"></i>
+		</div>
+	</div>
+	</div>
+	
+	<div class="row7">
+		<p class="mail"><b>Email:</b><br><a href="mailto:christian@theblueprint.design" title="mail tbp" target="_blank" class="w3-hover-opacity">hello@theblueprint.design </a></p>
+		<p class="call"><b>Phone:</b><br> 720.335.3192 <a href="" title="W3.CSS" target="_blank" class="w3-hover-opacity"></a></p>
+	</div>
+	
+	</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+</script>
+
+</body>
 </html>
