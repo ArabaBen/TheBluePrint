@@ -13,11 +13,9 @@ body{
 	width: 100%;
 	overflow-x: hidden;
 }
-.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
-.w3-half img:hover{opacity:1}
 h1{
 	font-family: myFirstFont;
-	font-size: 80px;
+	font-size: 70px;
 	
 }
 h2{
@@ -28,106 +26,52 @@ p, h4{
 	font-family: mySecFont;
 }
 
-.profile1, .profile2{
-	text-align: right;
-}
-.profile1 h2, .profile2 h2{
-	margin-top: 80px;
-}
-
-.row1,.row2, .row3, .row4,.row5{
-	margin-bottom: 40px;
-	margin-left: 10%;
-}
-
-.row1 img{
-	padding: 20px 20px;
-	width: 15%;
-}
-.row2 img{
-	padding: 20px 20px;
-}
-.row3 img{
-	padding: 20px 20px;
-}.row4 img{
-	padding: 20px 20px;
-}.row5 img{
-	padding: 20px 20px;
-	margin-bottom: 5%;
-}
 
 
-.row7{
-	width: 40%;
-	margin-top: 5%;
-	float: left;
-	margin-left: 20px;
-}
-.row8{
-	float: left;
-	width: 40%;
-	font-size: 20px;
-	top: 0;
-	text-align: left;
-		margin-left: 20px;
-
-}
-
-/*RESPONSIVE SIZES*/
-
+/*MEDIA QUIERE*/
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-	.body {  width: 100%;}
-	#intro{width: 100%;}
 	.bigscr{display: none;}
 	.pssmall{display: contents;}
 	.psbig{display: none;}
-	.profile1 img{ width: 100%;}
-	#profile1{max-width: 100%;}
-	.profile1 p{ width: 100%; float: right;}
-	.row1 img{ width: 100%;padding: 0;margin: 0;margin-left: 0;margin-right: 0;margin-top: 0;}
-	.testimonals p{width: 100%;float: right;padding: 0; }
-	.w3-half{
-		max-width: 100%;
-		width: 100%;
-		padding: 0;
-		margin: 0
-	}
-	
-	
-	
-	
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-  .body {background: green;
-	   width: 100%;}
 	.need2know{ display: none;}
-	.row1 img,.row2 img, .row3 img, .row4 img,.row5{
-		width: 100%;
+	#test3{padding:25px;padding-left: 155px;padding-right: 155px;}
+	#test1, #test2{
+padding-left:85px;padding-right: 85px;		
 	}
-	
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-  .body {background: blue; width: 100%;}
 	.need2know, .pssmall{
 		display: none;
 		visibility: hidden;
 	}
-	
-} 
+	#test3{padding:25px;padding-left: 155px;padding-right: 155px;}
+	#test1, #test2{
+padding-left:85px;padding-right: 85px;		
+	}
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-  .body {background: orange; width: 100%;}
 	.need2know, .pssmall{ display: none; visibility: hidden;}
-} 
+#test3{padding:25px;padding-left: 255px;padding-right: 255px;}
+	#test1, #test2{
+padding-left:125px;padding-right: 125px;		
+	}
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-  .body {background: pink; width: 100%;}
-		.need2know, .pssmall{ display: none; visibility: hidden;}
+	.need2know, .pssmall{ display: none; visibility: hidden;}
+#test3{padding:25px;padding-left: 355px;padding-right: 355px;}
+	#test1, #test2{
+		padding-left:85px;padding-right: 85px;
+		
+	}
 }
