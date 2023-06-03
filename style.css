@@ -36,15 +36,13 @@ p, h4{
 }
 
 .row1,.row2, .row3, .row4,.row5{
-	margin-top: 20px;
 	margin-bottom: 40px;
 	margin-left: 10%;
-	margin-right: 10%;
 }
 
 .row1 img{
-	margin-top: 20px;
 	padding: 20px 20px;
+	width: 15%;
 }
 .row2 img{
 	padding: 20px 20px;
@@ -79,15 +77,25 @@ p, h4{
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  .body {
-	  width: 100%;
-	}
-	#intro{
+	.body {  width: 100%;}
+	#intro{width: 100%;}
+	.bigscr{display: none;}
+	.pssmall{display: contents;}
+	.psbig{display: none;}
+	.profile1 img{ width: 100%;}
+	#profile1{max-width: 100%;}
+	.profile1 p{ width: 100%; float: right;}
+	.row1 img{ width: 100%;padding: 0;margin: 0;margin-left: 0;margin-right: 0;margin-top: 0;}
+	.testimonals p{width: 100%;float: right;padding: 0; }
+	.w3-half{
+		max-width: 100%;
 		width: 100%;
+		padding: 0;
+		margin: 0
 	}
-	.bigscr{
-		display: none;
-	}
+	
+	
+	
 	
 }
 
@@ -99,24 +107,27 @@ p, h4{
 	.row1 img,.row2 img, .row3 img, .row4 img,.row5{
 		width: 100%;
 	}
+	
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   .body {background: blue; width: 100%;}
-	.need2know{
-		display: none;}
+	.need2know, .pssmall{
+		display: none;
+		visibility: hidden;
+	}
 	
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   .body {background: orange; width: 100%;}
-	.need2know{ display: none;}
+	.need2know, .pssmall{ display: none; visibility: hidden;}
 } 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
   .body {background: pink; width: 100%;}
-		.need2know{ display: none;}
+		.need2know, .pssmall{ display: none; visibility: hidden;}
 }
